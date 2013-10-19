@@ -1,0 +1,5 @@
+syntax: glob
+ServiceProxy.Use.1.0.0.nupkg
+ServiceProxy.Use.v11.suo
+ServiceProxy.Use/bin/*
+ServiceProxy.Use/obj/*

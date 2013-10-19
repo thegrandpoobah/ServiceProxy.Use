@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>ServiceProxy.Use</id>
+        <version>1.0.0</version>
+        <title>ServiceProxy.Use</title>
+        <authors>Sahab Yazdani</authors>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Replaces the common but incorrect "using (ServiceClient sc = new ServiceClient()) {}" usage pattern for WCF web service proxies.
+
+For an explanation of why this is necessary read http://msdn.microsoft.com/en-us/library/aa355056.aspx
+
+This is essentially sugar on top of Microsoft's recommentation courtesy of http://stackoverflow.com/a/16445534/1169863</description>
+        <summary>Useful WCF Service Client Sugar</summary>
+        <copyright>Copyright 2013 Sahab Yazdani</copyright>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0" />
+            <frameworkAssembly assemblyName="System.ServiceModel" targetFramework=".NETFramework4.0" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="ServiceProxy.Use\bin\Release\ServiceProxy.Use.dll" target="lib\net40\ServiceProxy.Use.dll" />
+    </files>
+</package>
