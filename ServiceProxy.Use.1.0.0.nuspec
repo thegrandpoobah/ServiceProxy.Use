@@ -6,6 +6,7 @@
         <title>ServiceProxy.Use</title>
         <authors>Sahab Yazdani</authors>
         <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/thegrandpoobah/ServiceProxy.Use</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Replaces the common but incorrect "using (ServiceClient sc = new ServiceClient()) {}" usage pattern for WCF web service proxies.
 
