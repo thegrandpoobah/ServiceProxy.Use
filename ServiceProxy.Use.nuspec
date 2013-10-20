@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>ServiceProxy.Use</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <title>ServiceProxy.Use</title>
         <authors>Sahab Yazdani</authors>
         <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
@@ -21,6 +21,7 @@ This is essentially sugar on top of Microsoft's recommentation courtesy of http:
         </frameworkAssemblies>
     </metadata>
     <files>
-        <file src="ServiceProxy.Use\bin\Release\ServiceProxy.Use.dll" target="lib\net40\ServiceProxy.Use.dll" />
+        <file src="lib\net40\ServiceProxy.Use.dll" target="lib\net40\ServiceProxy.Use.dll" />
+        <file src="ServiceProxy.Use\bin\Release\ServiceProxy.Use.XML" target="lib\net40\ServiceProxy.Use.XML" />
     </files>
 </package>
